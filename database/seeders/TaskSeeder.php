@@ -14,24 +14,52 @@ class TaskSeeder extends Seeder
     public function run(): void
     {
         Task::create([
-            'title' => 'Sample Task 1',
-            'description' => 'This is a description for task 1.',
+            'title' => 'Java',
+            'description' => 'Learn.',
             'status' => 'pending',
             'due_date' => '2024-12-31',
         ]);
 
         Task::create([
-            'title' => 'Sample Task 2',
-            'description' => 'This is a description for task 2.',
+            'title' => 'PHP',
+            'description' => 'Project',
             'status' => 'in-progress',
             'due_date' => '2025-01-15',
         ]);
 
         Task::create([
-            'title' => 'Sample Task 3',
-            'description' => 'This is a description for task 3.',
+            'title' => 'Rust',
+            'description' => 'Learn',
             'status' => 'completed',
             'due_date' => '2024-12-25',
+        ]);
+
+        Task::create([
+            'title' => 'React',
+            'description' => 'Project',
+            'status' => 'completed',
+            'due_date' => '2024-12-28',
+        ]);
+
+        Task::create([
+            'title' => 'YypeScript',
+            'description' => 'Learn',
+            'status' => 'pending',
+            'due_date' => '2024-12-28',
+        ]);
+
+        Task::create([
+            'title' => 'Kotlin',
+            'description' => 'Learn',
+            'status' => 'in-progress',
+            'due_date' => '2024-12-30',
+        ]);
+
+        Task::create([
+            'title' => 'Flutter',
+            'description' => 'Research',
+            'status' => 'completed',
+            'due_date' => '2024-12-30',
         ]);
     }
 }
